@@ -9,4 +9,4 @@ eureka:
       defaultZone: http://localhost:8002/hello
     fetch-registry: false
 age: 25
-Name: zhaohongchengss
+name: zhaohongchengs
