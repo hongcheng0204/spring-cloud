@@ -1,0 +1,12 @@
+spring:
+  profiles: dev
+eureka:
+  instance:
+    hostname: dev
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8002/hello
+    fetch-registry: false
+age: 25
+Name: zhaohongchengss
