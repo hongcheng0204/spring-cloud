@@ -6,7 +6,7 @@ eureka:
   client:
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8002/hello,http://localhost:10008/eureka
+      defaultZone: http://localhost:10008/eureka
     fetch-registry: false
 age: 25
 name: zhaohongchengs
