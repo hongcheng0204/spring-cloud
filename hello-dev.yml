@@ -1,12 +1,6 @@
-spring:
-  profiles: dev
 eureka:
-  instance:
-    hostname: dev
   client:
-    register-with-eureka: true
     service-url:
       defaultZone: http://localhost:10008/eureka
-    fetch-registry: false
 age: 25
 name: zhaohongchengs
