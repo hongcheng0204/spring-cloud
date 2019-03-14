@@ -1,5 +1,5 @@
-server:
-  port: 10008
+spring:
+  profiles: dev
 eureka:
   instance:
     hostname: dev
@@ -12,8 +12,4 @@ eureka:
     wait-time-in-ms-when-sync-empty: 0
     peer-eureka-nodes-update-interval-ms: 10000
     enable-self-preservation: true
-spring:
-  application:
-    name: peer-eureka
-  profiles:
-    active: dev
+name: 22
