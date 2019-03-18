@@ -4,7 +4,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.3.37:3306/cashloan?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
     username: root
-    password: 123456
+    password: "{cipher}3d71065b906c81883f2aa46218bf7af979eb8a49ce40cd3b6cfdad9a532d9f3c"
 eureka:
   client:
     service-url:
