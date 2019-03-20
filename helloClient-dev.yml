@@ -9,5 +9,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10008/eureka
-age: 29
+age: 32
 name: zhaohongchengs
